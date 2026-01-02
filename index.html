@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalamandra Magistral | Decodificadora DecoX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,900;1,400&family=Inter:wght@300;400;700&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-shadow: #000000; /* Negro - Clave Baja */
+            --color-fresa: #3BB273;  /* Verde Teal - Claridad [cite: 44] */
+            --color-malandra: #FF00FF; /* Magenta - Disrupción [cite: 80] */
+            --color-light: #F5F5F5;
+            --font-primary: 'Bodoni Moda', serif;
+            --font-tech: 'Inter', sans-serif;
+            --font-stencil: 'Stardos Stencil', cursive;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--color-shadow);
+            color: var(--color-light);
+            font-family: var(--font-tech);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Estética: Galería vandalizada con precisión quirúrgica [cite: 11] */
+        .vandal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/film-grain.png');
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10%;
+            border-left: 2px solid var(--color-fresa);
+            margin-left: 5%;
+        }
+
+        h1 {
+            font-family: var(--font-primary);
+            font-size: clamp(3rem, 8vw, 6rem);
+            line-height: 0.9;
+            text-transform: uppercase;
+            font-weight: 900;
+            margin-bottom: 2rem;
+        }
+
+        .highlight { color: var(--color-fresa); }
+
+        .tagline {
+            font-size: 1.5rem;
+            max-width: 600px;
+            font-style: italic;
+            border-bottom: 1px solid var(--color-malandra);
+            padding-bottom: 1rem;
+        }
+
+        /* Sección SRAP: Protocolo de flujo [cite: 15] */
+        .section-srap {
+            padding: 10% 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            background: linear-gradient(to bottom, #000, #0a0a0a);
+        }
+
+        .srap-card {
+            padding: 2rem;
+            border: 1px solid #222;
+            transition: 0.4s ease;
+        }
+
+        .srap-card:hover {
+            border-color: var(--color-fresa);
+            transform: translateY(-10px);
+        }
+
+        .srap-card h3 {
+            font-family: var(--font-stencil);
+            color: var(--color-malandra);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* La Hexagonía (Archetypes) [cite: 61] */
+        .hexagonia {
+            padding: 10% 5%;
+            text-align: center;
+        }
+
+        .archetype-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: #222;
+            margin-top: 3rem;
+        }
+
+        .archetype-item {
+            background: var(--color-shadow);
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .archetype-item:hover {
+            background: #050505;
+            color: var(--color-fresa);
+        }
+<section id="proyectos" style="padding: 10% 5%; border-top: 1px solid #222;">
+        <h2 style="font-family: var(--font-primary); font-size: 3rem; margin-bottom: 4rem; text-align: center;">
+            PROYECTOS <span class="highlight">ACTIVOS</span>
+        </h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 3rem;">
+            
+            <div class="srap-card" style="border-left: 4px solid var(--color-fresa);">
+                <p style="font-family: var(--font-stencil); font-size: 0.8rem; margin-bottom: 1rem;">[ REFINERÍA DE DATOS ]</p>
+                <h3 style="color: var(--color-light); font-family: var(--font-primary);">Insightify Chalamandra™</h3>
+                <p style="font-size: 0.9rem; margin: 1.5rem 0;">Extensión de Chrome con IA Local-First (Gemini Nano). Decodifica contenido masivo en insights estratégicos con personalidad "CHOLA" integrada[cite: 83, 91]. Privacidad absoluta y velocidad de 0ms mediante caché inteligente[cite: 86, 89].</p>
+                <p style="font-size: 0.7rem; letter-spacing: 2px; color: var(--color-fresa);">STATUS: BETA LATAM Q1 2026 [cite: 95]</p>
+                <a href="https://github.com/brasdefer1597-cloud/Quantummind-XYZ" target="_blank" class="btn-cta" style="padding: 0.5rem 1rem; font-size: 0.8rem;">REVISAR REPO</a>
+            </div>
+
+            <div class="srap-card" style="border-left: 4px solid var(--color-malandra);">
+                <p style="font-family: var(--font-stencil); font-size: 0.8rem; margin-bottom: 1rem;">[ PROPAGANDA CULTURAL ]</p>
+                <h3 style="color: var(--color-light); font-family: var(--font-primary);">BLOGchal</h3>
+                <p style="font-size: 0.9rem; margin: 1.5rem 0;">Plataforma de pensamiento premium. Un espacio de "humor ácido" y análisis sistémico protegido por capas de exclusividad[cite: 68]. Estética magenta y negra para mentes que no piden permiso[cite: 80].</p>
+                <p style="font-size: 0.7rem; letter-spacing: 2px; color: var(--color-malandra);">STATUS: MONETIZADO / ADSENSE [cite: 68]</p>
+                <a href="#" class="btn-cta" style="padding: 0.5rem 1rem; font-size: 0.8rem;">ACCESO PREMIUM</a>
+            </div>
+
+            <div class="srap-card" style="border-left: 4px solid #fff;">
+                <p style="font-family: var(--font-stencil); font-size: 0.8rem; margin-bottom: 1rem;">[ LABORATORIO DE ASFALTO ]</p>
+                <h3 style="color: var(--color-light); font-family: var(--font-primary);">SRAP Beats: Folklore Edition</h3>
+                <p style="font-size: 0.9rem; margin: 1.5rem 0;">Aplicación de TinyML para dispositivos ARM. Sincroniza el pulso de la música folclórica con algoritmos de IA en tiempo real[cite: 66]. La intersección perfecta entre tradición y código puro[cite: 66].</p>
+                <p style="font-size: 0.7rem; letter-spacing: 2px; color: #888;">STATUS: I+D+i CULTURAL [cite: 66]</p>
+            </div>
+
+        </div>
+    </section>
+        footer {
+            padding: 5rem;
+            text-align: center;
+            font-family: var(--font-stencil);
+            letter-spacing: 5px;
+            color: #444;
+        }
+
+        .btn-cta {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            border: 1px solid var(--color-fresa);
+            color: var(--color-fresa);
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-cta:hover {
+            background: var(--color-fresa);
+            color: var(--color-shadow);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="vandal-overlay"></div>
+
+    <header>
+        <p class="font-stencil" style="color: var(--color-malandra)">DECODIFICADORA MAGISTRAL DECOX</p>
+        <h1>Chalamandra<br><span class="highlight">Magistral</span></h1>
+        <p class="tagline">"Soy el anillo de compromiso entre la calle y el penthouse. Decodifico tus traumas con humor ácido." [cite: 46]</p>
+        <a href="#contacto" class="btn-cta">EJECUTAR INTERVENCIÓN</a>
+    </header>
+
+    <section class="section-srap">
+        <div class="srap-card">
+            <h3>S — SCAN</h3>
+            <p>Lectura sensorial y de datos. Identificamos qué es ruido y qué es señal en el caos. [cite: 17, 18]</p>
+        </div>
+        <div class="srap-card">
+            <h3>R — RITMO</h3>
+            <p>Sincronización con la velocidad real. Frenamos para acelerar el sistema. [cite: 19, 20]</p>
+        </div>
+        <div class="srap-card">
+            <h3>A — ANÁLISIS</h3>
+            <p>Reconocimiento de patrones. Miramos la matriz detrás de la interfaz. [cite: 22, 23]</p>
+        </div>
+        <div class="srap-card">
+            <h3>P — PRESENCIA</h3>
+            <p>Ejecución absoluta. Mínima fuerza para el máximo efecto. Mano firme. [cite: 25, 26]</p>
+        </div>
+    </section>
+
+    <section class="hexagonia">
+        <h2 style="font-family: var(--font-primary); font-size: 3rem;">LENGUAJE DE DISEÑO</h2>
+        <div class="archetype-grid">
+            <div class="archetype-item"><h4>CHOLA</h4><small>Raíces & Resiliencia [cite: 61]</small></div>
+            <div class="archetype-item"><h4>FRESA</h4><small>Estética & Lujo [cite: 61]</small></div>
+            <div class="archetype-item"><h4>MALANDRA</h4><small>Estrategia & Audacia [cite: 61]</small></div>
+            <div class="archetype-item"><h4>BAILARINA</h4><small>Fluidez & Ritmo [cite: 61]</small></div>
+            <div class="archetype-item"><h4>BALLET</h4><small>Rigor & Disciplina [cite: 61]</small></div>
+            <div class="archetype-item"><h4>FOLKLÓRICO</h4><small>Comunidad & Legado [cite: 61]</small></div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <p>CAOS RENTABLE · LUJO VIVO</p>
+        <p style="font-size: 0.8rem; margin-top: 1rem;">© 2026 CHALAMANDRA MAGISTRAL</p>
+    </footer>
+
+</body>
+</html>
